@@ -2,12 +2,14 @@ import { Injectable } from '@nestjs/common';
 import { Octokit } from "octokit";
 import { Commit } from './interfaces/commits';
 
+const config = require("../config/config.json");
+
 @Injectable()
 export class AppService {
 
-  apikey: string = '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';
-  user: string = 'jmsarmientopalma';
-  repo: string = 'commits-project';
+  apikey: string = config.apikey;
+  user: string = config.user;
+  repo: string = config.repo;
 
   private async githubAuth(userApikey:string) {
     try {
@@ -44,6 +46,7 @@ export class AppService {
       });
 
       return resp;
+      
     } catch (error) {
       
       console.log('There\'s some errors obtaining commits from the repository.');

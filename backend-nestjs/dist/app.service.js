@@ -9,11 +9,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.AppService = void 0;
 const common_1 = require("@nestjs/common");
 const octokit_1 = require("octokit");
+const config = require("../config/config.json");
 let AppService = class AppService {
     constructor() {
-        this.apikey = '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';
-        this.user = 'jmsarmientopalma';
-        this.repo = 'commits-project';
+        this.apikey = config.apikey;
+        this.user = config.user;
+        this.repo = config.repo;
     }
     async githubAuth(userApikey) {
         try {
