@@ -1,2 +1,46 @@
+#BACKEND
 backend-nestjs/node_modules/
 backend-nestjs/config/config.json
+
+#FRONTEND
+# Compiled output
+frontend-angular/dist
+frontend-angular/tmp
+frontend-angular/out-tsc
+frontend-angular/bazel-out
+
+# Node
+frontend-angular/node_modules
+frontend-angular/npm-debug.log
+frontend-angular/yarn-error.log
+
+# IDEs and editors
+frontend-angular/.idea/
+frontend-angular/.project
+frontend-angular/.classpath
+frontend-angular/.c9/
+frontend-angular/*.launch
+frontend-angular/.settings/
+frontend-angular/*.sublime-workspace
+
+# Visual Studio Code
+frontend-angular/.vscode/*
+frontend-angular/!.vscode/settings.json
+frontend-angular/!.vscode/tasks.json
+frontend-angular/!.vscode/launch.json
+frontend-angular/!.vscode/extensions.json
+frontend-angular/.history/*
+
+# Miscellaneous
+frontend-angular/.angular/cache
+frontend-angular/.sass-cache/
+frontend-angular/connect.lock
+frontend-angular/coverage
+frontend-angular/libpeerconnection.log
+frontend-angular/testem.log
+frontend-angular/typings
+
+#r System files
+frontend-angular/.DS_Store
+frontend-angular/Thumbs.db
+frontend-angular/.gitignore
