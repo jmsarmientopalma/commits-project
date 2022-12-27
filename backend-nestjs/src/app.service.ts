@@ -7,9 +7,9 @@ const config = require("../config/config.json");
 @Injectable()
 export class AppService {
 
-  apikey: string = config.apikey;
-  user: string = config.user;
-  repo: string = config.repo;
+  private apikey: string = config.apikey;
+  private user: string = config.user;
+  private repo: string = config.repo;
 
   private async githubAuth(userApikey:string) {
     try {

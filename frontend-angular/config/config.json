@@ -1,0 +1,4 @@
+{
+    "backendBaseurl" : "http://localhost",
+    "backendPort" : "3000"
+}
