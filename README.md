@@ -73,9 +73,10 @@ and its structure is the following:
 
 
 **Note:**
-``` 
+
+` 
 The call to the GitHub API to retrieve the commits could have been done directly from the frontend, using some Angular characteristics and/or external libraries. But the requirement was explicitly to use a backend technology to connect to GitHub.
-```
+`
 
 <br><br>
 
@@ -96,7 +97,8 @@ Following are detailed the steps to run this project on a developement environme
 <br><br><br>
 
 **Final Note:**
-```
+
+`
 This project intend to show a well-structured and modularized project, on its backend and frontend sides, as well as the basic programming on Angular and NestJs considering the Clean Code principle using TypeScript.
 In its actual state, the project as so much work that can be done to isolate components, make more strong typing and, of course, make better the security and to implement characteristics in a better way, like lazy loading, child routes, etc.   
-```
+`
