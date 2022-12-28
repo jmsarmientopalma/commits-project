@@ -1,30 +1,8 @@
-    
-  <header class="mb-auto">
-    <div>
-      <h3 class="float-md-start mb-0">JM Sarmiento Interview Project</h3>
-      <nav class="nav nav-masthead justify-content-center float-md-end">
-        <!-- <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Refresh</a> -->
-        <a class="nav-link fw-bold py-1 px-0" href="https://impulsolabs.com" target="_blank">Impulso Labs</a>
-        <a class="nav-link fw-bold py-1 px-0" href="https://wa.link/eiwe48" target="_blank">Contact</a>
-      </nav>
-    </div>
-  </header>
+  <app-header class="mb-auto"></app-header>
 
   <main class="container-fluid">
-    <div class="row">
-      <div class="col-sm-10">
-        <h2>Commit List <small>for commits-project</small></h2>
-      </div>
-      <div class="col-sm-2">
-          <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white" (click)="actualiza()">Update</a>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="col-sm-12">
-        <p class="lead">Press Update button to refresh the commit list...</p>
-      </div>
-    </div>
+    <app-main-static></app-main-static>
 
     <div class="row">
       <div class="col-sm-12">
@@ -56,6 +34,4 @@
 
   </main>
 
-  <footer class="mt-auto text-white-50">
-    <p>Project developed for <a href="https://fulltimeforce.com/" class="text-white">FulltimeForce</a>, by <a href="https://wa.link/eiwe48" class="text-white" target="_blank">JM Sarmiento</a>.</p>
-  </footer>
+  <app-footer class="mt-auto text-white-50"></app-footer>
